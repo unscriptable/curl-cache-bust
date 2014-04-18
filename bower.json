@@ -1,0 +1,26 @@
+{
+  "name": "curl-cache-bust",
+  "version": "0.0.1",
+  "authors": [
+    "unscriptable <john@unscriptable.com>"
+  ],
+  "description": "A cache-busting shim for cujoJS's curl.js.",
+  "main": "cache-bust.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "amd",
+    "cache",
+    "curl",
+    "cujo"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
