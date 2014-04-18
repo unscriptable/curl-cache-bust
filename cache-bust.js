@@ -1,8 +1,7 @@
 /** @license MIT License (c) copyright 2014 original authors */
-/** @author Brian Cavalier */
 /** @author John Hann */
 
-define(['curl/_privileged'], function (priv) {
+define(/*==='curl-cache-bust/cache-bust',===*/ ['curl/_privileged'], function (priv) {
 	var loadScript = priv['core'].loadScript;
 
 	priv['core'].loadScript = function (def, success, failure) {
