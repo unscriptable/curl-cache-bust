@@ -27,7 +27,7 @@ unless the change is truly trivial, e.g. typo fixes, etc.
   of code, you should probably create a new package! :)
 * Feel free to work off the master branch.  This project is tiny.
 
-## Mind the whitespace
+## Mind the whitespace, thank you!
 
 Please carefully follow the whitespace and formatting conventions already
 present in the framework.
