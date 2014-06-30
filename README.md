@@ -11,6 +11,10 @@ so I added the capability via this shim.
 
 curl-cache-bust is installable via bower, if desired.
 
+You can set the cache-busting url string via the `urlArgs` config option.
+Do not include the '?' or '&' in the cache-busting url string.  It is 
+added automatically.
+
 The simplest way to use curl-cache-bust is to include a second async script
 element in your page.  This isn't the best performing option, and is not
 recommended for production:
@@ -24,6 +28,7 @@ You could also load the shim as a `preloads` in your curl config:
 
 ```js
 curl.config({
+	urlArgs: 'cache-bust=' + new Date(),
 	packages: {
 		'curl-cache-bust': {
 			location: 'bower_components/curl-cache-bust',
